@@ -7,12 +7,19 @@ export default () => (
         <div>
     <h1>I'd love to talk! Email me at the address below</h1>
 
-    <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" netlify>
       
         <div className="field">
-        <label htmlFor="name" className="label">Name</label>
+        <label htmlFor="fname" className="label">First Name</label>
         <div className="control">
-            <input  className="input" name="name" type="text" placeholder="name" />
+            <input  className="input" name="firstname" type="text" placeholder="name" />
+        </div>
+        </div>
+
+        <div className="field">
+        <label htmlFor="lname" className="label">Last Name</label>
+        <div className="control">
+            <input  className="input" name="lastname" type="text" placeholder="name" />
         </div>
         </div>
 
@@ -36,8 +43,8 @@ export default () => (
             <div className="control">
                 <div className="select">
                 <select>
-                    <option>Select dropdown</option>
-                    <option>Job Opportunity</option>
+                    <option value="leader">Select dropdown</option>
+                    <option value="follower">Job Opportunity</option>
                 </select>
                 </div>
             </div>
@@ -46,13 +53,13 @@ export default () => (
             <div className="field">
             <label htmlFor="message" className="label">Message</label>
             <div className="control">
-                <textarea className="textarea"   name="message"placeholder="Textarea"></textarea>
+                <textarea className="textarea" name="message" placeholder="Textarea"></textarea>
             </div>
             </div>
 
          <div className="field is-grouped">
         <div className="control">
-            <button className="button is-link">Submit</button>
+            <button type="submit" className="button is-link">Submit</button>
         </div>
         </div>
 
