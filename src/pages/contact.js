@@ -7,7 +7,7 @@ export default () => (
         <div>
     <h1>I'd love to talk! Email me at the address below</h1>
 
-    <form name="contact" action="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+    <form name="contact" action="POST" data-netlify="true" >
       
         <div className="field">
         <label htmlFor="name" className="label">Name</label>
