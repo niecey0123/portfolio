@@ -7,12 +7,12 @@ export default () => (
         <div>
     <h1>I'd love to talk! Email me at the address below</h1>
 
-    <form name="contact" method="POST" data-netlify="true" netlify netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
       
         <div className="field">
         <label htmlFor="name" className="label">Name</label>
         <div className="control">
-            <input  className="input" name="form-name" type="text" placeholder="name" />
+            <input  className="input" name="name" type="text" placeholder="name" />
         </div>
         </div>
 
@@ -35,9 +35,9 @@ export default () => (
             <label htmlFor="subject" className="label">Subject</label>
             <div className="control">
                 <div className="select">
-                <select name="options[]" multiple>
-                    <option value="option1">Select dropdown</option>
-                    <option value="option2">Job Opportunity</option>
+                <select>
+                    <option value="leader">Select dropdown</option>
+                    <option value="follower">Job Opportunity</option>
                 </select>
                 </div>
             </div>
@@ -56,7 +56,7 @@ export default () => (
         </div>
         </div>
 
-        <div data-netlify-recaptcha="true"></div>
+
    
       </form>
 
