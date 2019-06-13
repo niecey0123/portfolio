@@ -7,7 +7,7 @@ export default () => (
         <div>
     <h1>I'd love to talk! Email me at the address below</h1>
 
-    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" netlify>
+    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
       
         <div className="field">
         <label htmlFor="fname" className="label">First Name</label>
@@ -63,7 +63,7 @@ export default () => (
         </div>
         </div>
 
-
+        <div data-netlify-recaptcha="true"></div>
    
       </form>
 
