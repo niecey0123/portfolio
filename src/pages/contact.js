@@ -35,9 +35,9 @@ export default () => (
             <label htmlFor="subject" className="label">Subject</label>
             <div className="control">
                 <div className="select">
-                <select>
-                    <option value="leader">Select dropdown</option>
-                    <option value="follower">Job Opportunity</option>
+                <select name= "inquiry">
+                    <option >Select dropdown</option>
+                    <option >Job Opportunity</option>
                 </select>
                 </div>
             </div>
