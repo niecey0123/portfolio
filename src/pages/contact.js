@@ -42,9 +42,9 @@ export default () => (
             <label htmlFor="subject" className="label">Subject</label>
             <div className="control">
                 <div className="select">
-                <select>
-                    <option value="leader">Select dropdown</option>
-                    <option value="follower">Job Opportunity</option>
+                <select name="options[]" multiple>
+                    <option value="option1">Select dropdown</option>
+                    <option value="option2">Job Opportunity</option>
                 </select>
                 </div>
             </div>
