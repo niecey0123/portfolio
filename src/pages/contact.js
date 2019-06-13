@@ -7,19 +7,12 @@ export default () => (
         <div>
     <h1>I'd love to talk! Email me at the address below</h1>
 
-    <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+    <form name="contact" method="POST" data-netlify="true" netlify netlify-honeypot="bot-field" data-netlify-recaptcha="true">
       
         <div className="field">
-        <label htmlFor="fname" className="label">First Name</label>
+        <label htmlFor="name" className="label">Name</label>
         <div className="control">
-            <input  className="input" name="firstname" type="text" placeholder="name" />
-        </div>
-        </div>
-
-        <div className="field">
-        <label htmlFor="lname" className="label">Last Name</label>
-        <div className="control">
-            <input  className="input" name="lastname" type="text" placeholder="name" />
+            <input  className="input" name="form-name" type="text" placeholder="name" />
         </div>
         </div>
 
