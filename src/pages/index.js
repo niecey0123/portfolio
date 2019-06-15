@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import DummyForm from "../components/dummyForm"
 
 
 export default () => (
