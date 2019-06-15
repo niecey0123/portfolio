@@ -1,10 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
 import 'bulma/css/bulma.css'
+import DummyForm from "../components/dummyForm"
+
 
 export default () => (
     <Layout>
-        <div>
+
+<DummyForm/>
+
+        {/* <div>
     <h1>I'd love to talk! Email me at the address below</h1>
 
     <form name="contact" action="POST" data-netlify="true" >
@@ -50,10 +55,10 @@ export default () => (
             </div>
             </div>
 
-            <div className="field">
+            {/* <div className="field">
             <div data-netlify-recaptcha="true">
             </div>
-            </div>
+            </div> */}
 
          <div className="field is-grouped">
         <div className="control">
@@ -65,7 +70,7 @@ export default () => (
    
       </form>
 
-        </div>
+        </div> */}
         </Layout>
 
   
