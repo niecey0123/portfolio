@@ -29,6 +29,7 @@ export default () => (
 
   <form name="contact"
   method="post"
+  action="/success" 
   data-netlify="true"
   data-netlify-honeypot="bot-field">
   <div className="field half first">
