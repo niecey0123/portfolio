@@ -34,6 +34,7 @@ export default () => (
   data-netlify-honeypot="bot-field">
   <div className="field half first">
     <label htmlFor="name">Name</label>
+    <input type="hidden" name="form-name" value="contact" />
     <input type="text" name="name" id="name" />
   </div>
   <div className="field half">
