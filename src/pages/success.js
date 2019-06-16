@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-const Success = props => (
+export default () => (
   <Layout>
     <Helmet title="foo bar" defer={false}>
       <title>Success Page</title>
@@ -25,4 +25,3 @@ const Success = props => (
   </Layout>
 )
 
-export default Success
